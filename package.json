@@ -5,15 +5,17 @@
   "homepage": "https://amcquade.github.io/quick-feed",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
+    "@reduxjs/toolkit": "^1.9.5",
     "axios": "^0.18.1",
     "react": "^16.10.2",
     "react-audio-player": "^0.13.0",
     "react-dom": "^16.10.2",
+    "react-redux": "^8.1.2",
     "react-scripts": "^3.2.0",
     "rss-parser": "^3.7.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
